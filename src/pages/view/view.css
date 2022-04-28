@@ -68,6 +68,9 @@
 
 .blog__layout {
   display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2em;
 }
 .blog__layout .blog__left {
   margin-top: 80px;
@@ -81,9 +84,6 @@
   font-size: 1.4rem;
   margin-bottom: 0.6em;
 }
-.blog__layout .blog__left p {
-  word-wrap: break-word;
-}
 .blog__layout .blog__right {
   margin-left: 50px;
 }
@@ -95,5 +95,8 @@
 @media (max-width: 900px) {
   .blog__label .section__title {
     font-size: 5.8vw;
+  }
+  .blog__layout {
+    flex-direction: column;
   }
 }

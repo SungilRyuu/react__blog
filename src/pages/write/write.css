@@ -27,6 +27,8 @@
 
 .board__modify {
   text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .board__modify label {
@@ -61,4 +63,16 @@
   display: inline-block;
   font-size: 14px;
   cursor: pointer;
+}
+
+@media (max-width: 1220px) {
+  .section__title {
+    font-size: 2.7em;
+  }
+  .section__desc {
+    font-size: 1.6em;
+  }
+  .board__modify {
+    padding: 0 20px;
+  }
 }
