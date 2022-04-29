@@ -4,26 +4,26 @@ import "./view.css";
 export default function View() {
   return (
     <main id="contents">
-      <h2 class="ir_so">컨텐츠 영역</h2>
-      <section id="blog-type" class="center mb100">
-        <div class="blog__label">
-          <h3 class="section__title">블로그 View 제목입니다.</h3>
+      <h2 className="ir_so">컨텐츠 영역</h2>
+      <section id="blog-type" className="center mb100">
+        <div className="blog__label">
+          <h3 className="section__title">블로그 View 제목입니다.</h3>
           <div className="info">
-            <span class="author">
+            <span className="author">
               <a href="#">선생님</a>
             </span>
-            <span class="date">2022-04-11 20:04:06</span>
-            <span class="modify">
+            <span className="date">2022-04-11 20:04:06</span>
+            <span className="modify">
               <a href="#">수정</a>
             </span>
-            <span class="delete">
+            <span className="delete">
               <a href="#">삭제</a>
             </span>
           </div>
         </div>
 
-        <div class="blog__layout">
-          <div class="blog__left">
+        <div className="blog__layout">
+          <div className="blog__left">
             <h4>블로그 View 제목입니다.</h4>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error placeat veritatis alias vitae. Harum,
@@ -49,15 +49,15 @@ export default function View() {
               출처 : 코딩월드뉴스(https://www.codingworldnews.com)
             </p>
           </div>
-          <div class="blog__right">
+          <div className="blog__right">
             {/* 광고 들어갈 자리 */}
             <iframe
               src="https://ads-partners.coupang.com/widgets.html?id=572093&template=carousel&trackingCode=AF1920066&subId=&width=300&height=300"
               width="300"
               height="500"
-              frameborder="0"
+              frameBorder="0"
               scrolling="no"
-              referrerpolicy="unsafe-url"
+              referrerPolicy="unsafe-url"
             ></iframe>
           </div>
         </div>

@@ -1,0 +1,18 @@
+.join-intro {
+  /* background: yellow; */
+}
+.join-intro .face {
+  /* background: pink; */
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+.join-intro .face img {
+  background: green;
+}
+
+@media (max-width: 1220px) {
+  .join-type {
+    padding: 0 1em;
+  }
+}

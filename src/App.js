@@ -6,6 +6,8 @@ import Footer from "./components/footer/Footer";
 import Login from "./pages/login/Login";
 import Write from "./pages/write/Write";
 import View from "./pages/view/View";
+import Join from "./pages/join/Join";
+import Mypage from "./pages/mypage/Mypage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -24,6 +26,12 @@ function App() {
         </Route>
         <Route path="/view">
           <View />
+        </Route>
+        <Route path="/join">
+          <Join />
+        </Route>
+        <Route path="/mypage">
+          <Mypage />
         </Route>
       </Switch>
       <Footer />

@@ -1,0 +1,224 @@
+
+.join-type {
+    padding: 150px 0;
+}
+
+.member-form {
+    max-width: 665px;
+    border: 1px solid #dedede;
+    background: #fff;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.login-form {
+    max-width: 590px;
+    border: 1px solid #dedede;
+    background: #fff;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.member-form h3,
+.login-form h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.member-form .list li {
+    font-size: 14px;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 10px;
+}
+
+.member-form .list li::before {
+    content: '';
+    width: 3px;
+    height: 3px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    left: 0; top: 9px;
+}
+
+.member-form h4 {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.member-form .guide {
+    background: #f5f5f5;
+    padding: 20px;
+} 
+
+.member-form .check {
+    display: block;
+    margin-top: 20px;
+}
+
+/* 議곗씤 諛뺤뒪 */
+.join-intro {
+    height: 200px;
+    /* border: 1px solid #dfdfdf; */
+    margin-bottom: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.join-intro .face {
+    width: 300px;
+    height: 100px;
+    /* position: absolute; */
+    margin: 0px auto 0 auto;
+    border-radius: 50%;
+    margin-bottom: 60px;
+    /* background: #b7b7b7; */
+}
+
+.join-intro .change {
+    padding-top: 10px;
+}
+.join-intro .intro {
+    padding-top: 20px;
+}
+
+.join-box label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.join-box input {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 20px;
+}
+.join-box .overlap label {
+    width: 100%;
+}
+.join-box .overlap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.join-box .overlap input {
+    width: 70%;
+}
+.join-box .overlap .test {
+    width: 26%;
+    background: #f5f5f5;
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.join-box .overlap .comment {
+    width: 100%;
+    font-size: 14px;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.join-box .basic input {
+    margin-bottom: 0;
+}
+.join-box .basic .comment {
+    width: 100%;
+    font-size: 14px;
+    padding-top: 10px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.join-info {
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+.join-info li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.join-info li strong {
+    width: 20%;
+    font-weight: normal;
+    margin-bottom: 10px;
+    background: #eee;
+    padding: 10px 0;
+    text-align: center;
+}
+.join-info li span {
+    width: 78%;
+    display: inline-block;
+    padding: 10px 0;
+    border-bottom: 1px solid #c6c6c6;
+    margin-bottom: 10px;
+}
+
+.join-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.join-btn a {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    background: #eee;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 49%;
+    transition: all 0.3s;
+}
+.join-btn a:hover {
+    box-shadow: inset 0 0 0 2px #222;
+    background: #fff;
+}
+
+.join-submit,
+.login-submit {
+    font-size: 16px;
+    background: #eee;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.join-submit:hover,
+.login-submit:hover{
+    box-shadow: inset 0 0 0 2px #222;
+}
+
+.join-box .modify input {
+    background: #dfdfdf;
+    margin-bottom: 30px;
+}
+
+.mt10 {margin-top: 10px;}
+.mt20 {margin-top: 20px;}
+.mt30 {margin-top: 30px;}
+.mt40 {margin-top: 40px;}
+.mt50 {margin-top: 50px;}
+.mt60 {margin-top: 60px;}
+.mt70 {margin-top: 70px;}
+.mt80 {margin-top: 80px;}
+.mt90 {margin-top: 90px;}
+.mt100 {margin-top: 100px;}
+.mb10 {margin-bottom: 10px;}
+.mb20 {margin-bottom: 20px;}
+.mb30 {margin-bottom: 30px;}
+.mb40 {margin-bottom: 40px;}
+.mb50 {margin-bottom: 50px;}
+.mb60 {margin-bottom: 60px;}
+.mb70 {margin-bottom: 70px;}
+.mb80 {margin-bottom: 80px;}
+.mb90 {margin-bottom: 90px;}
+.mb100 {margin-bottom: 100px;}

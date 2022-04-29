@@ -18,16 +18,18 @@ export default function Header() {
         <Link to="/login">LOGIN</Link>
         <Link to="/view">VIEW</Link>
         <Link to="/write">WRITE</Link>
-        <Link to="/" className="quiz">
-          LOGOUT
+        <Link to="/join" className="quiz">
+          JOIN
         </Link>
       </div>
       <div className="header__info">
+        <Link to="/mypage">
         <img
           src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-          alt=""
+          alt="photo"
         />
-        <a href="#">환영합니다. 네모님</a>
+        <p>환영합니다. 네모님</p>
+        </Link>
       </div>
     </header>
   );
